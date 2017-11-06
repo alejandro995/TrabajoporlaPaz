@@ -23,7 +23,7 @@ public class PersonController {
 		this.personService = ps;
 	}
 	
-	@RequestMapping(value = "/persons", method = RequestMethod.GET)
+	@RequestMapping(value = "/trabajoporlapaz", method = RequestMethod.GET)
 	public String listPersons(Model model) {
 		model.addAttribute("person", new Person());
 		model.addAttribute("listPersons", this.personService.listPersons());
