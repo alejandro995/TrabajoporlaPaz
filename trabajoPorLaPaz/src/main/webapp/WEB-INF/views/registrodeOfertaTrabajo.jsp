@@ -8,9 +8,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <jsp:include page="links/links.jsp"/>
+    <title>Registro de oferta de trabajo</title>
 </head>
 <body>
+<jsp:include page="links/header.jsp"/>
+<br>
+<br>
+<br>
 
 <div class="container">
     <h2>Registra tu ofeta</h2>
@@ -28,7 +33,7 @@
     </div>
     <div class="form-group">
         <label for="usr">Tipo de contrato:</label>
-        <select>
+        <select class="form-control">
             <option>Indefinido</option>
             <option>Comision</option>
             <option>Obra o labor</option>
@@ -39,7 +44,7 @@
     </div>
     <div class="form-group">
         <label for="usr">Tiempo de servicio:</label>
-        <select>
+        <select class="form-control">
             <option>Tiempo completo</option>
             <option>Medio tiempo</option>
             <option>Por horas</option>
@@ -53,7 +58,7 @@
         <p>hasta</p>
         <input type="text" class="form-control" id="usr">
         <p>tiempo</p>
-        <select>
+        <select class="form-control">
             <option>Tiempo completo</option>
             <option>Medio tiempo</option>
             <option>Por horas</option>
@@ -93,7 +98,7 @@
     <h2>Requisitos para el candidato</h2>
     <div class="form-group">
         <label for="usr">Años de experiencia:</label>
-        <select>
+        <select class="form-control">
             <option>1 año</option>
             <option>2 años</option>
             <option>3 años</option>
@@ -107,7 +112,7 @@
 
     <div class="form-group">
         <label for="usr">Años de experiencia:</label>
-        <select>
+        <select class="form-control">
             <option>1 año</option>
             <option>2 años</option>
             <option>3 años</option>
@@ -147,6 +152,16 @@
             <label><input type="radio" name="optradio" >No</label>
         </div>
     </div>
+
+
+    <div class="btns_center">
+        <a href="#" class="btn btn-info" role="button">Guardar</a>
+        <a href="#" class="btn btn-info" role="button">Volver</a>
+        <br>
+        <br>
+    </div>
 </div>
+<jsp:include page="links/modal.jsp"/>
+<jsp:include page="links/modal_login.jsp"/>
 </body>
 </html>

@@ -8,72 +8,46 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <style>
-        /* Note: Try to remove the following lines to see the effect of CSS positioning */
-        .affix {
-            top: 0;
-            width: 100%;
-            z-index: 9999 !important;
-        }
-
-        .affix + .container-fluid {
-            padding-top: 70px;
-        }
-    </style>
-
     <jsp:include page="links/links.jsp"/>
-
-
-
     <title>Trabajo por la paz</title>
 </head>
-<div class="container-fluid" style="background-color:#5a669f;color:#fff;height:150px;">
-    <table>
-        <tbody>
-            <tr style="width:10%">
-                <td rowspan="3"><img src="/resources/images/iconTrabjoPorlapaz.png" height="60" width="60"></img>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h1>Bienvenido a Trabajo por la Paz</h1>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>El lugar donde podrás encontrar las mejores ofertas de empleo para ti</h3>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>Aquí queremos que todos los colombianos tengan un lugar mejor para labrar su futuro!</p>
-                </td>
-            </tr>
-
-        </tbody>
-    </table>
-
-</div>
-
-<nav class="navbar navbar-toggler" data-spy="affix" data-offset-top="197">
-    <ul class="navbar-nav">
-        <li class="active"><a href="#">Basic Topnav</a></li>
-        <li><a href="#">Page 1</a></li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
-    </ul>
-</nav>
-
+<body>
+<jsp:include page="links/header.jsp"/>
+<br>
+<br>
+<br>
 <div class="container">
-    <div class="form-group">
-        <label for="usr">Name:</label>
-        <input type="text" class="form-control" id="usr">
+
+    <div class="col-lg-offset-2 col-lg-8 col-lg-offset-2">
+        <div class="center_div">
+            <div class="logo_pagediv">
+                <img src="/resources/images/iconTrabjoPorlapaz.png">
+            </div>
+            <div class="search_div">
+                <input id="input_search" type="text" name="search" placeholder="Busca tu trabajo...">
+            </div>
+            <div>
+
+                <p>El lugar donde podrás encontrar las mejores ofertas de empleo para ti.
+                Aquí queremos que todos los colombianos tengan un lugar mejor para laborar su futuro!</p>
+
+            </div>
+
+
+        </div>
+
+
     </div>
-    <div class="form-group">
-        <label for="pwd">Password:</label>
-        <input type="password" class="form-control" id="pwd">
-    </div>
+
+
+
+
+
 </div>
+
+<jsp:include page="links/modal.jsp"/>
+<jsp:include page="links/modal_login.jsp"/>
+
 
 
 </body>

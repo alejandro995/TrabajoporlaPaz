@@ -8,9 +8,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <jsp:include page="links/links.jsp"/>
+    <title>registro Empleador</title>
 </head>
 <body>
+<jsp:include page="links/header.jsp"/>
+<br>
+<br>
+<br>
 
 
 
@@ -28,7 +33,7 @@
     </div>
     <div class="form-group">
         <label for="usr">Tipo de identificacion:</label>
-        <select>
+        <select class="form-control">
             <option>NIT</option>
             <option>Cédula</option>
             <option>Pasaporte</option>
@@ -42,7 +47,7 @@
     </div>
     <div class="form-group">
         <label for="usr">Sector:</label>
-        <select>
+        <select class="form-control">
 
             <option value="101">Agropecuario</option>
             <option value="102">Alimentos</option>
@@ -81,7 +86,7 @@
     </div>
     <div class="form-group">
         <label for="pwd">Numero de empleados:</label>
-        <select>
+        <select class="form-control">
             <option value="101">1-10</option>
             <option value="101">11-30</option>
             <option value="101">30-100</option>
@@ -93,6 +98,7 @@
     </div>
     <div class="form-group">
         <label for="usr">Departamento:</label>
+        <select class="form-control">
         <option value="">Por favor seleccione</option>
         <option value="91">Amazonas</option>
         <option value="5">Antioquia</option>
@@ -127,9 +133,11 @@
         <option value="76">Valle Del Cauca</option>
         <option value="97">Vaupés</option>
         <option value="99">Vichada</option>
+        </select>
     </div>
     <div class="form-group">
         <label for="pwd">Ciudad:</label>
+        <select class="form-control">
         <option value="1">Aguachica Cesar</option>
         <option value="2">Apartadó Antioquia</option>
         <option value="3">Arauca</option>
@@ -204,6 +212,7 @@
         <option value="72">Yopal Casanare</option>
         <option value="73">Yumbo Valle del Cauca</option>
         <option value="74">Zipaquirá Cundinamarca</option>
+        </select>
     </div>
     <div class="form-group">
         <label for="usr">Direccion:</label>
@@ -221,10 +230,10 @@
     <h2>Informacion de usuario administrador</h2>
     <div class="form-group">
         <label for="usr">Tipo de documento:</label>
-        <select>
-            <optio>Cédula</optio>
-            <optio>Pasaporte</optio>
-            <optio>Cédula de extranejería</optio>
+        <select class="form-control">
+            <option>Cédula</option>
+            <option>Pasaporte</option>
+            <option>Cédula de extranejería</option>
         </select>
     </div>
     <div class="form-group">
@@ -241,7 +250,7 @@
     </div>
     <div class="form-group">
         <label for="pwd">Pregunta de seguridad:</label>
-        <select>
+        <select class="form-control">
         <option value="3" title="¿Cuál es el nombre de su mascota?">¿Cuál es el nombre de su mascota?</option>
         <option value="2" title="¿Cuál es su color preferido?">¿Cuál es su color preferido?</option>
         <option value="4" title="¿Cuál es su deporte favorito?">¿Cuál es su deporte favorito?</option>
@@ -286,8 +295,17 @@
         </div>
     </div>
 
-    <a href="#" class="btn btn-info" role="button">Guardar</a>
-    <a href="#" class="btn btn-info" role="button">Volver</a>
+    <div class="btns_center">
+        <a href="#" class="btn btn-info" role="button">Guardar</a>
+        <a href="#" class="btn btn-info" role="button">Volver</a>
+        <br>
+        <br>
+    </div>
+
+
+
 </div>
+<jsp:include page="links/modal.jsp"/>
+<jsp:include page="links/modal_login.jsp"/>
 </body>
 </html>

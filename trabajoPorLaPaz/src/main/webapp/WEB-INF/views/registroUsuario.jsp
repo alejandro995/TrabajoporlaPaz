@@ -9,20 +9,24 @@
 <html>
 <head>
     <jsp:include page="links/links.jsp"/>
-    <title>Title</title>
+    <title>Registro de usuario</title>
 </head>
 <body>
 <jsp:include page="links/header.jsp"/>
+<br>
+<br>
+<br>
+
 
 <div class="container">
 
-    <h2>Registra como usuario</h2>
+    <h2>Registrarte como usuario</h2>
     <div class="form-group">
         <label for="usr">Tipo de documento:</label>
         <select>
-            <optio>Cédula</optio>
-            <optio>Pasaporte</optio>
-            <optio>Cédula de extranejería</optio>
+            <option>Cédula</option>
+            <option>Pasaporte</option>
+            <option>Cédula de extranejería</option>
         </select>
     </div>
     <div class="form-group">
@@ -56,12 +60,12 @@
         </div>
         <script type="text/javascript">
             $( function() {
-                $( "#datepicker" ).datepicker();
+                $( "#datepicker" ).datetimepicker();
             } );
         </script>
     </div>
     <div class="form-group">
-        <label for="usr">Especiica el tipo de estudio que tienes:</label>
+        <label for="usr">Especifica el tipo de estudio que tienes:</label>
         <div class="radio">
             <label><input type="radio" name="optradio">Profesional</label>
         </div>
@@ -98,11 +102,16 @@
         <input type="text" class="form-control" id="address">
     </div>
 
+    <div class="btns_center">
+        <a href="#" class="btn btn-info" role="button">Guardar</a>
+        <a href="#" class="btn btn-info" role="button">Volver</a>
+        <br>
+        <br>
+    </div>
 
-    <a href="#" class="btn btn-info" role="button">Guardar</a>
-    <a href="#" class="btn btn-info" role="button">Volver</a>
 </div>
-
+<jsp:include page="links/modal.jsp"/>
+<jsp:include page="links/modal_login.jsp"/>
 
 </body>
 </html>

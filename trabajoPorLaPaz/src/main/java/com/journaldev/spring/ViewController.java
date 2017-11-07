@@ -32,7 +32,7 @@ public class ViewController {
     @RequestMapping(value = "/registroOfertaTrabajo", method = RequestMethod.GET)
     public String registroOfertaTrabajo() {
 
-        return "registroOfertaTrabajo";
+        return "registrodeOfertaTrabajo";
     }
     @RequestMapping(value = "/murodeEmpleador", method = RequestMethod.GET)
     public String murodeEmpleador() {
