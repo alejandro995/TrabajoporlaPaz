@@ -24,4 +24,25 @@ public class ViewController {
 
         return "registroUsuario";
     }
+    @RequestMapping(value = "/registroEmpleador", method = RequestMethod.GET)
+    public String registroEmpleador() {
+
+        return "registroEmpleador";
+    }
+    @RequestMapping(value = "/registroOfertaTrabajo", method = RequestMethod.GET)
+    public String registroOfertaTrabajo() {
+
+        return "registroOfertaTrabajo";
+    }
+    @RequestMapping(value = "/murodeEmpleador", method = RequestMethod.GET)
+    public String murodeEmpleador() {
+
+        return "murodeEmpleador";
+    }
+    @RequestMapping(value = "/murodeUsuario", method = RequestMethod.GET)
+    public String murodeUsuario() {
+
+        return "murodeUsuario";
+    }
+
 }

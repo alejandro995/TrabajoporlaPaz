@@ -7,7 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <header>
-<nav class="navbar navbar-inverse nav-fix">
+<nav class="navbar navbar-inverse nav-fix navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-brand logoTrabajo" href="#"><img src="/resources/images/trabajoIcon.png" height="70" width="70"></a>
