@@ -8,6 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+
     <jsp:include page="links/links.jsp"/>
     <title>Trabajo por la paz</title>
 </head>
@@ -24,7 +25,7 @@
                 <img src="/resources/images/iconTrabjoPorlapaz.png">
             </div>
             <div class="search_div">
-                <input id="input_search" type="text" name="search" placeholder="Busca tu trabajo...">
+                <input id="input_search" type="text" name="search" href="/murodeUsuario" placeholder="Busca tu trabajo...">
             </div>
             <div>
 

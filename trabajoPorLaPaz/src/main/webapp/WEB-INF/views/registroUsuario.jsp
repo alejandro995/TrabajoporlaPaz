@@ -23,7 +23,7 @@
     <h2>Registrarte como usuario</h2>
     <div class="form-group">
         <label for="usr">Tipo de documento:</label>
-        <select>
+        <select class="form-control">
             <option>Cédula</option>
             <option>Pasaporte</option>
             <option>Cédula de extranejería</option>

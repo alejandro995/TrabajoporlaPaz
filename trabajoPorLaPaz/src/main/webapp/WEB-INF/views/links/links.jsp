@@ -1,4 +1,7 @@
 <!-- jQuery library -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+
 <script src="/resources/jquery/jquery-3.2.1.js"></script>
 
 <!-- Latest compiled and minified CSS -->
