@@ -1,0 +1,30 @@
+.logoTrabajo{
+    padding: 0px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.nav-fix {
+     min-height: 70px !important;
+    background-color: #4267b2 !important;
+    border-color: #4267b2 !important;
+}
+
+.font-fix {
+    font-size: large;
+    padding-top: 23px !important;
+    color: #ffffff !important;
+}
+.font-fix:hover {
+    color: #000000 !important;
+}
+
+.p-fix{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: large;
+    padding-top: 23px;
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 0px !important;
+}
+

@@ -8,9 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <jsp:include page="links/links.jsp"/>
     <title>Title</title>
 </head>
 <body>
+<jsp:include page="links/header.jsp"/>
 
 </body>
 </html>

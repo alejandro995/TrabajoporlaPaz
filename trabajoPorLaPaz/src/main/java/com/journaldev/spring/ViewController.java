@@ -17,4 +17,11 @@ public class ViewController {
 
         return "index";
     }
+
+
+    @RequestMapping(value = "/registroUsuario", method = RequestMethod.GET)
+    public String registroUsuario() {
+
+        return "registroUsuario";
+    }
 }
