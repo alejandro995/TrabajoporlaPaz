@@ -24,16 +24,16 @@
     <h1>Registra tu empresa</h1>
     <h2>Informacion de la empresa</h2>
     <div class="form-group">
-        <label for="usr">Nombre comercial:</label>
-        <input type="text" class="form-control" id="usr">
+        <label for="company_name">Nombre comercial:</label>
+        <input type="text" class="form-control" id="company_name">
     </div>
     <div class="form-group">
-        <label for="pwd">Razon social:</label>
-        <input type="password" class="form-control" id="pwd">
+        <label for="social_reason">Razon social:</label>
+        <input type="password" class="form-control" id="social_reason">
     </div>
     <div class="form-group">
-        <label for="usr">Tipo de identificacion:</label>
-        <select class="form-control">
+        <label for="company_typeId">Tipo de identificacion:</label>
+        <select id="company_typeId" class="form-control">
             <option>NIT</option>
             <option>Cédula</option>
             <option>Pasaporte</option>
@@ -42,13 +42,12 @@
         </select>
     </div>
     <div class="form-group">
-        <label for="pwd">Numero de indentificación:</label>
-        <input type="password" class="form-control" id="idnumber">
+        <label for="company_idNum">Numero de indentificación:</label>
+        <input type="password" class="form-control" id="company_idNum">
     </div>
     <div class="form-group">
-        <label for="usr">Sector:</label>
-        <select class="form-control">
-
+        <label for="company_sector">Sector:</label>
+        <select class="form-control" id="company_sector">
             <option value="101">Agropecuario</option>
             <option value="102">Alimentos</option>
             <option value="103">Asegurador</option>
@@ -85,8 +84,8 @@
         </select>
     </div>
     <div class="form-group">
-        <label for="pwd">Numero de empleados:</label>
-        <select class="form-control">
+        <label for="company_employees">Numero de empleados:</label>
+        <select class="form-control" id="company_employees">
             <option value="101">1-10</option>
             <option value="101">11-30</option>
             <option value="101">30-100</option>
@@ -97,8 +96,8 @@
         </select>
     </div>
     <div class="form-group">
-        <label for="usr">Departamento:</label>
-        <select class="form-control">
+        <label for="company_departamento">Departamento:</label>
+        <select class="form-control" id="company_departamento">
         <option value="">Por favor seleccione</option>
         <option value="91">Amazonas</option>
         <option value="5">Antioquia</option>
@@ -136,8 +135,8 @@
         </select>
     </div>
     <div class="form-group">
-        <label for="pwd">Ciudad:</label>
-        <select class="form-control">
+        <label for="company_ciudad">Ciudad:</label>
+        <select class="form-control" id="company_ciudad">
         <option value="1">Aguachica Cesar</option>
         <option value="2">Apartadó Antioquia</option>
         <option value="3">Arauca</option>
@@ -215,42 +214,42 @@
         </select>
     </div>
     <div class="form-group">
-        <label for="usr">Direccion:</label>
-        <input type="text" class="form-control" id="address">
+        <label for="company_address">Direccion:</label>
+        <input type="text" class="form-control" id="company_address">
     </div>
     <div class="form-group">
-        <label for="pwd">Telefono:</label>
-        <input type="password" class="form-control" id="phone">
+        <label for="company_phone">Telefono:</label>
+        <input type="password" class="form-control" id="company_phone">
     </div>
     <div class="form-group">
-        <label for="usr">PaginaWeb:</label>
-        <input type="text" class="form-control" id="webpage">
+        <label for="company_webpage">PaginaWeb:</label>
+        <input type="text" class="form-control" id="company_webpage">
     </div>
 
     <h2>Informacion de usuario administrador</h2>
     <div class="form-group">
-        <label for="usr">Tipo de documento:</label>
-        <select class="form-control">
+        <label for="id_type">Tipo de documento:</label>
+        <select class="form-control" id="id_type">
             <option>Cédula</option>
             <option>Pasaporte</option>
             <option>Cédula de extranejería</option>
         </select>
     </div>
     <div class="form-group">
-        <label for="pwd">Número de identificación:</label>
-        <input type="number" class="form-control" id="numIdentificacion">
+        <label for="id_num">Número de identificación:</label>
+        <input type="number" class="form-control" id="id_num">
     </div>
     <div class="form-group">
-        <label for="usr">Correo Electrónico:</label>
+        <label for="email">Correo Electrónico:</label>
         <input type="email" class="form-control" id="email">
     </div>
     <div class="form-group">
-        <label for="pwd">Contraseña:</label>
-        <input type="password" class="form-control" id="pwd">
+        <label for="password">Contraseña:</label>
+        <input type="password" class="form-control" id="password">
     </div>
     <div class="form-group">
-        <label for="pwd">Pregunta de seguridad:</label>
-        <select class="form-control">
+        <label for="company_securityQ">Pregunta de seguridad:</label>
+        <select class="form-control" id="company_securityQ">
         <option value="3" title="¿Cuál es el nombre de su mascota?">¿Cuál es el nombre de su mascota?</option>
         <option value="2" title="¿Cuál es su color preferido?">¿Cuál es su color preferido?</option>
         <option value="4" title="¿Cuál es su deporte favorito?">¿Cuál es su deporte favorito?</option>
@@ -259,39 +258,39 @@
         </select>
     </div>
     <div class="form-group">
-        <label for="pwd">Respuesta:</label>
-        <input type="text" class="form-control" id="rta">
+        <label for="company_securityRta">Respuesta:</label>
+        <input type="text" class="form-control" id="company_securityRta">
     </div>
     <div class="form-group">
-        <label for="usr">Nombre:</label>
-        <input type="text" class="form-control" id="nombre">
+        <label for="name">Nombre:</label>
+        <input type="text" class="form-control" id="name">
     </div>
     <div class="form-group">
-        <label for="pwd">Primer Apellido:</label>
-        <input type="password" class="form-control" id="apellido1">
+        <label for="lastName">Primer Apellido:</label>
+        <input type="password" class="form-control" id="lastName">
     </div>
     <div class="form-group">
-        <label for="usr">Segundo Apellido:</label>
-        <input type="text" class="form-control" id="apellido2">
+        <label for="lastName2">Segundo Apellido:</label>
+        <input type="text" class="form-control" id="lastName2">
     </div>
     <div class="form-group">
-        <label for="pwd">Fecha de nacimiento:</label>
+        <label for="birthDate">Fecha de nacimiento:</label>
         <div class='input-group date' id='datetimepicker1'>
-            <input type='text' id="datepicker" class="form-control" />
+            <input type='text' id="birthDate" class="form-control" />
         </div>
         <script type="text/javascript">
             $( function() {
-                $( "#datepicker" ).datepicker();
+                $( "#birthDate" ).datepicker();
             } );
         </script>
     </div>
     <div class="form-group">
-        <label for="usr"> ¿Le interesa recibir noticias sobre las últimas actualizaciones de la pagina?:</label>
+        <label> ¿Le interesa recibir noticias sobre las últimas actualizaciones de la pagina?:</label>
         <div class="radio">
-            <label><input type="radio" name="optradio">Si</label>
+            <label><input type="radio" name="company_Wnews">Si</label>
         </div>
         <div class="radio">
-            <label><input type="radio" name="optradio">No</label>
+            <label><input type="radio" name="company_Wnews">No</label>
         </div>
     </div>
 
@@ -307,5 +306,44 @@
 </div>
 <jsp:include page="links/modal.jsp"/>
 <jsp:include page="links/modal_login.jsp"/>
+
+<script>
+    function registrarEmpleador() {
+        var empleador = {
+            id_type: $("#id_type").val(),
+            id_num:$("#id_num").val(),
+            email:$("#email").val(),
+            password:$("#password").val(),
+            name:$("#name").val(),
+            lastName:$("#lastName").val(),
+            lastName2:$("#lastName2").val(),
+            birthDate:$("#birthDate").val(),
+            company_name:$("#company_name").val(),
+            social_reason:$("#social_reason").val(),
+            company_typeId:$("#company_typeId").val(),
+            company_idNum:$("#company_idNum").val(),
+            company_sector:$("#company_sector").val(),
+            company_employees:$("#company_employees").val(),
+            company_departamento:$("#company_departamento").val(),
+            company_ciudad:$("#company_ciudad").val(),
+            company_address:$("#company_address").val(),
+            company_phone:$("#company_phone").val(),
+            company_webpage:$("#company_webpage").val(),
+            company_securityQ:$("#company_securityQ").val(),
+            company_securityRta:$("#company_securityRta").val(),
+            company_Wnews:$("#company_Wnews").val()
+        }
+        $.ajax({
+            url: '/registrarEmpleador',
+            type: 'post',
+            dataType: 'json',
+            success: function (data) {
+                $('#successmsg').html(data.msg);
+            },
+            data: empleador
+        });
+    }
+
+</script>
 </body>
 </html>
