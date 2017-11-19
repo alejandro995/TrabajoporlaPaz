@@ -10,7 +10,7 @@ import javax.persistence.*;
 public class Empleador  extends  Usuario{
 
     @Id
-    @Column(name="employer_id")
+    @Column(name="empleador")
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private int id;
 
