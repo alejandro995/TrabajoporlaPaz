@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<jsp:include page="links/header.jsp"/>
 <html>
 <head>
     <jsp:include page="links/links.jsp"/>
@@ -288,10 +289,8 @@
     <div class="form-group">
         <label for="usr"> ¿Le interesa recibir noticias sobre las últimas actualizaciones de la pagina?:</label>
         <div class="radio">
-            <label><input type="radio" name="optradio">Si</label>
-        </div>
-        <div class="radio">
-            <label><input type="radio" name="optradio">No</label>
+            <label><input type="radio" name="optradiono">Si</label>
+            <label><input type="radio" name="optradiosi">No</label>
         </div>
     </div>
 
