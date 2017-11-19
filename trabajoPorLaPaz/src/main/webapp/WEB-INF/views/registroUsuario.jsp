@@ -119,15 +119,17 @@
     var empleado = {
         id_type: $("#id_type").val(),
         id_num:$("#id_num").val(),
-        email:$("#password").val(),
-        email:$("#name").val(),
-        email:$("#lastName").val(),
-        email:$("#lastName2").val(),
-        email:$("#birthDate").val(),
-        email:$("input:radio[name ='study_type']:checked").val(),
-        email:$("#last_job").val(),
-        email:$("#contact_phone").val(),
-        email:$("#address").val()
+        email:$("#email").val(),
+        password:$("#password").val(),
+        name:$("#name").val(),
+        lastName:$("#lastName").val(),
+        lastName2:$("#lastName2").val(),
+        birthDate:$("#birthDate").val(),
+        study_type:$("input:radio[name ='study_type']:checked").val(),
+        last_job:$("#last_job").val(),
+        date_last_job:$("#date_last_job").val(),
+        contact_phone:$("#contact_phone").val(),
+        address:$("#address").val()
     }
     $.ajax({
     url: '/registrarEmpleado',
