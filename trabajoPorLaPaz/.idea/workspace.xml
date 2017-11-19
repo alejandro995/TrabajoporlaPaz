@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="584b3f1e-ec5a-49d3-b316-e90e1e6122a9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/AccionController.java" afterPath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/AccionController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registrodeOfertaTrabajo.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registrodeOfertaTrabajo.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1662,7 +1660,7 @@
       <workItem from="1509990899479" duration="19844000" />
       <workItem from="1510024287346" duration="8122000" />
       <workItem from="1510076447443" duration="2083000" />
-      <workItem from="1511035260341" duration="12178000" />
+      <workItem from="1511035260341" duration="12196000" />
     </task>
     <task id="LOCAL-00001" summary="Se agrega el proyecto base..">
       <created>1507781029540</created>
@@ -1748,11 +1746,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511060145142</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="AJAx actualizado empleadora&#10;">
+      <created>1511062448161</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1511062448161</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59801000" />
+    <option name="totallyTimeSpent" value="59819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
@@ -1810,7 +1815,8 @@
     <MESSAGE value="Se" />
     <MESSAGE value="AJAx actualizado&#10;" />
     <MESSAGE value="AJAx actualizado empleador&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="AJAx actualizado empleador&#10;" />
+    <MESSAGE value="AJAx actualizado empleadora&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="AJAx actualizado empleadora&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
