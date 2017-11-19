@@ -55,8 +55,26 @@
 	<beans:bean id="personDAO" class="com.journaldev.spring.dao.PersonDAOImpl">
 		<beans:property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory" />
 	</beans:bean>
+	<beans:bean id="empleadorDAO" class="com.journaldev.spring.dao.EmpleadorDAOImpl">
+		<beans:property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory" />
+	</beans:bean>
+	<beans:bean id="empleadoDAO" class="com.journaldev.spring.dao.EmpleadoDAOImpl">
+		<beans:property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory" />
+	</beans:bean>
+	<beans:bean id="ofertaDeTrabajoDAO" class="com.journaldev.spring.dao.OfertaDeTrabajoDAOImpl">
+		<beans:property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory" />
+	</beans:bean>
 	<beans:bean id="personService" class="com.journaldev.spring.service.PersonServiceImpl">
 		<beans:property name="personDAO" ref="personDAO"></beans:property>
+	</beans:bean>
+	<beans:bean id="empleadorService" class="com.journaldev.spring.service.EmpleadorServiceImpl">
+		<beans:property name="empleadorDAO" ref="empleadorDAO"></beans:property>
+	</beans:bean>
+	<beans:bean id="empleadoService" class="com.journaldev.spring.service.EmpleadoServiceImpl">
+		<beans:property name="empleadoDAO" ref="empleadoDAO"></beans:property>
+	</beans:bean>
+	<beans:bean id="ofertaDeTrabajoService" class="com.journaldev.spring.service.OfertaDeTrabajoServiceImpl">
+		<beans:property name="ofertaDeTrabajoDAO" ref="ofertaDeTrabajoDAO"></beans:property>
 	</beans:bean>
 	<context:component-scan base-package="com.journaldev.spring" />
 	

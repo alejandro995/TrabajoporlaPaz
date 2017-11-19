@@ -22,6 +22,8 @@ public class PersonController {
 	public void setPersonService(PersonService ps){
 		this.personService = ps;
 	}
+
+
 	
 	@RequestMapping(value = "/trabajoporlapaz", method = RequestMethod.GET)
 	public String listPersons(Model model) {
