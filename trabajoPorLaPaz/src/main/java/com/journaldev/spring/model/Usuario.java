@@ -5,7 +5,9 @@ import javax.persistence.*;
 /**
  * Created by alejo on 11/18/2017.
  */
-
+@Entity
+@Table(name = "usuario")
+@Inheritance(strategy=InheritanceType.JOINED)
 public class Usuario {
 
     private String id_type;
