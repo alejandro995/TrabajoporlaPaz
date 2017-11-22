@@ -1,7 +1,6 @@
 package com.journaldev.spring.dao;
 
 import com.journaldev.spring.model.OfertaDeTrabajo;
-import com.journaldev.spring.model.Person;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.slf4j.Logger;
