@@ -16,7 +16,7 @@ public class PersonDAOImpl implements PersonDAO {
 	private static final Logger logger = LoggerFactory.getLogger(PersonDAOImpl.class);
 
 	private SessionFactory sessionFactory;
-	
+
 	public void setSessionFactory(SessionFactory sf){
 		this.sessionFactory = sf;
 	}

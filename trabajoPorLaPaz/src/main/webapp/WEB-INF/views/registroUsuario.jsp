@@ -104,8 +104,8 @@
 
     <div class="btns_center">
         <p id="successmsg"></p>
-        <a href="#" class="btn btn-info" role="button">Guardar</a>
-        <a href="#" class="btn btn-info" role="button">Volver</a>
+        <a href="#" class="btn btn-info" role="button" onclick="registrarEmpleado()">Guardar</a>
+        <a href="/" class="btn btn-info" role="button">Volver</a>
         <br>
         <br>
     </div>

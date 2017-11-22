@@ -136,8 +136,8 @@
 
 
     <div class="btns_center">
-        <a href="#" class="btn btn-info" role="button">Guardar</a>
-        <a href="#" class="btn btn-info" role="button">Volver</a>
+        <a href="#" class="btn btn-info" role="button" onclick="registrarOferta()">Guardar</a>
+        <a href="/" class="btn btn-info" role="button">Volver</a>
         <br>
         <br>
     </div>
@@ -164,7 +164,7 @@
             offer_reqSameLocation:$("input:radio[name ='offer_reqSameLocation']:checked").val()
         }
         $.ajax({
-            url: '/registrarOfertaEmpleo',
+            url: '/registrarOferta',
             type: 'post',
             dataType: 'json',
             success: function (data) {
