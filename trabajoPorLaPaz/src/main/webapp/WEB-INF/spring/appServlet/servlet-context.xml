@@ -29,9 +29,9 @@
 		destroy-method="close">
 		<beans:property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<beans:property name="url"
-			value="jdbc:mysql://sql10.freemysqlhosting.net:3306/sql10203471" />
-		<beans:property name="username" value="sql10203471" />
-		<beans:property name="password" value="h4CM42GuYH" />
+			value="jdbc:mysql://localhost:3306/trabajoporlapaz" />
+		<beans:property name="username" value="root" />
+		<beans:property name="password" value="Alejodt995*" />
 	</beans:bean>
 
 	<!-- Hibernate 4 SessionFactory Bean definition -->
@@ -41,6 +41,9 @@
 		<beans:property name="annotatedClasses">
 			<beans:list>
 				<beans:value>com.journaldev.spring.model.Person</beans:value>
+				<beans:value>com.journaldev.spring.model.Empleado</beans:value>
+				<beans:value>com.journaldev.spring.model.Empleador</beans:value>
+				<beans:value>com.journaldev.spring.model.OfertaDeTrabajo</beans:value>
 			</beans:list>
 		</beans:property>
 		<beans:property name="hibernateProperties">
