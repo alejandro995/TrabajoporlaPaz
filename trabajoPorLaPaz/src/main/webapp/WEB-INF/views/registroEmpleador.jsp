@@ -270,7 +270,7 @@
         <input type="password" class="form-control" id="lastName">
     </div>
     <div class="form-group">
-        <label for="lastName2">Segundo Apellido:</label>
+        <label for="lastName2">Segundo Apellidooo:</label>
         <input type="text" class="form-control" id="lastName2">
     </div>
     <div class="form-group">
