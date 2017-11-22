@@ -1,11 +1,6 @@
 package com.journaldev.spring.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 
 /**
@@ -13,12 +8,8 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name="empleador")
+@PrimaryKeyJoinColumn(name="id")
 public class Empleador  extends  Usuario{
-
-    @Id
-    @Column(name="empleador")
-    @GeneratedValue(strategy= GenerationType.IDENTITY)
-    private int id;
 
     private String company_name;
     private String social_reason;
@@ -35,13 +26,6 @@ public class Empleador  extends  Usuario{
     private String company_securityRta;
     private String company_Wnews;
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getCompany_name() {
         return company_name;

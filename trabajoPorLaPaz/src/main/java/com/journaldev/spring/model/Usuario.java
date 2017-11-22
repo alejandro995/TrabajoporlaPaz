@@ -19,6 +19,7 @@ public class Usuario {
     private String lastName2;
     private String birthDate;
 
+    @Column(name="id")
     public String getId_type() {
         return id_type;
     }
